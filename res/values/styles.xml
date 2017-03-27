@@ -1,0 +1,236 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="progress_loading">
+        <item name="android:layout_width">34dp</item>
+        <item name="android:layout_height">34dp</item>
+    </style>
+
+    <style name="text_buchong">
+        <item name="android:textColor">@color/othertitle_color</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="text_teshu">
+        <item name="android:textColor">@color/teshu_color</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="text_other_title">
+        <item name="android:textColor">@color/othertitle_color</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="text_yiban">
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="text_title">
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <!-- 分割线-横向 -->
+    <style name="line1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/dividing_line_color</item>
+    </style>
+
+    <style name="TitleBar_LeftButton1">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="address_detail">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/font_C_secondary_info_color_black_gray</item>
+        <item name="android:textSize">@dimen/font_main_text_size</item>
+    </style>
+
+    <style name="address_detail_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="address_detail_edit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/font_A_assistant_color_black</item>
+        <item name="android:textSize">@dimen/font_main_text_size</item>
+    </style>
+
+    <style name="TitleBar_LeftButton2">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="TitleBar_Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TitleBar1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/title_bar_height</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+    <style name="AnimRightInAndOut" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_right_in</item>
+        <item name="android:windowExitAnimation">@anim/push_right_out</item>
+    </style>
+    <style name="TitleBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/title_bar_height</item>
+        <item name="android:background">@color/font_B_highlight_color_red</item>
+    </style>
+
+    <!-- ListView分割线 -->
+    <style name="list_devide_line">
+        <item name="android:background">@color/all_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
+
+    <!-- 商品列表页导航下划线风格 -->
+    <style name="tab_under_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dip</item>
+        <item name="android:background">@color/app_dark_blue_text</item>
+    </style>
+
+    <style name="OrangerLine">
+        <item name="android:background">@color/oranger</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+
+    <style name="order_item">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/order_item_hight</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/list_item_margin_top_small</item>
+        <item name="android:paddingBottom">@dimen/list_item_margin_top_small</item>
+    </style>
+
+   
+
+    <style name="PersonalLine">
+        <item name="android:background">@color/black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+
+    <!-- 火车头一号规范styles定义 新的用的放到注释下面吧 上面的以后删掉 -->
+    <!-- 分割线 -->
+    <style name="divider_line">
+        <item name="android:background">@color/dividing_line_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dip</item>
+    </style>
+
+    <style name="small_divider_line">
+        <item name="android:background">@color/dividing_line_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+
+    <style name="startup_wrap_base">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="startup_match_base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+ 
+
+    <style name="divider_line_vetical">
+        <item name="android:background">@color/dividing_line_color</item>
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="small_divider_line_vetical">
+        <item name="android:background">@color/dividing_line_color</item>
+        <item name="android:layout_width">0.5dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <!-- 分割线-纵向 -->
+    <style name="logistics_line_vertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/dividing_line_color</item>
+    </style>
+
+    <style name="main_title_font">
+        <item name="android:textSize">@dimen/font_titlebar_size</item>
+        <item name="android:textColor">@color/font_E_colorized_bg_color_white</item>
+    </style>
+
+    <style name="smallProgressBarStyle" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:minHeight">20dip</item>
+        <item name="android:minWidth">20dip</item>
+        <item name="android:maxHeight">20dip</item>
+        <item name="android:maxWidth">20dip</item>
+    </style>
+	<style name="jingdou" mce_bogus="1" parent="android:Animation">  
+    	<item name="android:windowEnterAnimation">@anim/get_jingdou</item>  
+	</style>
+
+    <style name="fill_order_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:maxHeight">200dp</item>
+    </style>
+</resources>

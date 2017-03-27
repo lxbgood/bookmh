@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="all_bg">#f3f3f4</color>
+    <color name="black">#000000</color>
+     <color name="blackban">#202020</color>
+    <color name="red">#F94d4d</color>
+    <color name="yellow">#FFA500</color>
+    
+    <color name="none">#00000000</color>
+    <color name="jiance_red">#F94d4d</color>
+    <color name="app_common_text_color">#666666</color>
+    <color name="split_line_color">#EEF1F5</color>
+    <color name="title_color">#474747</color>
+    <color name="othertitle_color">#595959</color>
+    <color name="teshu_color">#989898</color>
+    <color name="fenge_color">#cfcfcf</color>
+    <color name="title_line_color">#cecece</color>
+    <color name="selectcolor">#e4e4e4</color>
+    <color name="pro_jubao">#BFBFBF</color>
+    <color name="app_dark_blue_text"> #105D9B</color>
+    <color name="grid_press">#e7eef4</color>
+    <color name="grid_divider">#eeeeee</color>
+    <color name="weaken_textcolor">#aaaaaa</color>
+    <color name="title_textcolor">#222222</color>
+    <!-- 横分割线 -->
+    <drawable name="pd_deliver_h">#dedede</drawable>
+    <!-- 搜索 -->
+    <color name="del_search_history_textcolor">#606060</color>
+    <color name="search_history_textcolor">#4e4e4e</color>
+    <color name="btn_green_normal">#2fa6d8</color>
+    <color name="btn_green_pressed">#1988af</color>
+    <color name="enable_color">#A6B1BB</color>
+    <color name="btn_oranger_normal">#FF9800</color>
+    <color name="btn_oranger_edge">#FF9800</color>
+    <color name="btn_oranger_pressed">#c67514</color>
+    <color name="oranger">#ff9800</color>
+    <color name="devide_line">#d9d9d9</color>
+    <color name="diccount_view_bg_color">#ff9000</color>
+    <color name="app_red_text">#FF362B</color>
+
+    <!-- 浅红 -->
+    <color name="product_red">#f24b48</color>
+    <!-- 灰色字体 -->
+    <color name="pd_gray">#848689</color>
+    <color name="hintColor">#9f9f9f</color>
+    <color name="highlight_yellow">#FFFFCC</color>
+    <color name="login_line">#e3e3e3</color>
+
+    <!-- 火车头一号视觉规范颜色值  新的用的放到注释下面吧 上面的以后删掉 -->
+    <!-- 背景 -->
+    <color name="white">#ffffff</color>
+    <color name="transparent_red">#00ff5745</color>
+    
+    <!-- 主色/按钮色 -->
+    <color name="button_main_color_yellow">#ffbb12</color>
+    <color name="button_main_color_dark_red">#f24937</color>
+    <color name="button_consignee_gray">#888888</color>
+    <!-- 字体颜色 -->
+    <!-- 辅助色 -->
+    <color name="font_A_assistant_color_black">#222222</color>
+    <!-- 高亮色 -->
+    <color name="font_B_highlight_color_red">#ff5745</color>
+    <!-- 彩色底白色字 -->
+    <color name="font_E_colorized_bg_color_white">#ffffff</color>
+    <!-- 次要信息 -->
+    <color name="font_C_secondary_info_color_black_gray">#888888</color>
+    <!-- 弱化信息 -->
+    <color name="font_D_weak_info_color_gray">#aaaaaa</color>
+	<!-- 弱化信息 -->
+    <color name="font_F_color_gray">#b4b4b4</color>
+    <!-- 分割线颜色 -->
+    <!-- 分割线 -->
+    <color name="dividing_line_color">#e3e3e3</color>
+    <!-- 九宫格分割线 -->
+    <color name="nine_grid_dividing_line_color">#eeeeee</color>
+
+    <!-- 首页更多精彩活动 -->
+    <color name="button_more_hot_activity">#6dd9b7</color>
+
+    <!-- button点击 -->
+    <color name="button_focused">#ee4533</color>
+    <!-- 商品详情 -->
+    <color name="product_line">#EEEEE0</color>
+    <color name="product_carimg_bg">#ffb43e</color>
+    <color name="product_windows_bg">#f1f1f2</color>
+    <color name="product_status_bg">#ededed</color>
+    <color name="logistics_track_unused">#898989</color>
+    <color name="logistics_track_normal">#231815</color>
+    <color name="product_button_bg">#c5c5c5</color>
+    <color name="product_promise_bg">#a5a5a5</color>
+    <color name="zeng_textnocolor">#c1c1c1</color>
+    <color name="toast_bg">#FFFCE2</color>
+    <color name="toast_bg_font">#FFC412</color>
+    <!-- 订单详情 -->
+    <color name="order_line_color">#666666</color>
+    <color name="gray">#e8e8e8</color>
+    <color name="order_red">#ffebeb</color>
+    <color name="orderprduct_bg">#fff7ea</color>
+    <color name="auth_msg_tips_bg">#fff7ea</color>
+    <color name="auth_pop_button">#007aff</color>
+    <color name="auth_btn_bg">#c5c5c5</color>
+    <color name="sixty_percent_transparent">#99000000</color>
+    <color name="fifty_percent_transparent">#7D000000</color>
+    <color name="feebbackground">#c2c2c2</color> 
+    <!-- 订单详情 -->
+    <color name="address_orerage_txt">#ff6f30</color>
+    <color name="address_green_txt">#09a138</color>
+    <color name="address_red_bg">#ffe1de</color>
+	<color name="address_green_bg">#d0f6bf</color>
+    <color name="lingjingdou">#bb8bfe</color>
+    <color name="address_orerage_bg">#ffe9c6</color>
+    
+    <!-- 购物车 -->
+    <color name="num_control_line">#c0c0c0</color>
+    <color name="num_control_gift_line">#f53119</color>
+    <color name="num_control_button_bg">#ececec</color>
+	<color name="text_color1">#a1a1a1</color>
+    <!-- 消息列表 -->
+    <color name="msg_tile_color">#333333</color>
+
+    <color name="order_gray_textcolor">#888888</color>
+    <color name="new_countdown_layout_bg">#ff454545</color>
+     <!-- 消息列表 -->
+    <color name="timelisttextcolor">#cdcdcd</color> 
+    <color name="product_line_bg">#F8F8F8</color>
+
+    <!-- 搜索筛选条件 -->
+    <color name="search_query_font_unselected">#686868</color>
+
+    <color name="fifty_percent_transparent_order">#7D0A0204</color>
+
+    <color name="select_sale_bg">#F7EAEA</color>
+    <color name="transparent">#00000000</color>
+    
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaskImage">
+        <!-- Identifier for the image that represents the Imageview's content. -->
+        <attr name="image" format="reference"/>
+        <!-- crop Imageview's content same as mask -->
+        <attr name="mask" format="reference"/>
+    </declare-styleable>
+    <!-- SlidingLayer -->
+    <declare-styleable name="SlidingLayer">
+        <attr name="shadow_drawable" format="boolean"/>
+        <attr name="shadow_width" format="dimension"/>
+        <attr name="close_on_tapEnabled" format="boolean"/>
+        <attr name="stickTo" format="enum">
+            <enum name="auto" value="0"/>
+            <enum name="right" value="-1"/>
+            <enum name="left" value="-2"/>
+            <enum name="middle" value="-3"/>
+        </attr>
+    </declare-styleable>
+    <!-- RadioButtonCenter -->
+    <declare-styleable name="CompoundButton">
+        <attr name="android:button"/>
+    </declare-styleable>
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension"/>
+        <attr name="border_inside_color" format="color"/>
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="indicatorColor" format="color"/>
+        <attr name="underlineColor" format="color"/>
+        <attr name="dividerColor" format="color"/>
+        <attr name="indicatorHeight" format="dimension"/>
+        <attr name="underlineHeight" format="dimension"/>
+        <attr name="dividerPadding" format="dimension"/>
+        <attr name="tabPaddingLeftRight" format="dimension"/>
+        <attr name="scrollOffset" format="dimension"/>
+        <attr name="tabBackground" format="reference"/>
+        <attr name="shouldExpand" format="boolean"/>
+        <attr name="textAllCaps" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="RoundedCornersImage">
+        <attr name="cornerRadius" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="ExtendedListView">
+        <attr name="scrollBarPanel" format="reference"/>
+        <attr name="scrollBarPanelInAnimation" format="reference"/>
+        <attr name="scrollBarPanelOutAnimation" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="pricetext">
+        <attr name="isNum" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="maxHeightView">
+        <attr name="maxHeightRatio" format="reference|float"/>
+        <attr name="maxHeightDimen" format="reference|dimension"/>
+    </declare-styleable>
+    <!-- 火车头一号规范attrs定义 新的用的放到注释下面吧 上面的以后删掉-->
+    <declare-styleable name="PowerImageView">
+        <attr name="auto_play" format="boolean"></attr>
+    </declare-styleable>
+    <declare-styleable name="ShapedImageView">
+        <attr name="shape_mode" format="enum">
+            <enum name="round_rect" value="1"/>
+            <enum name="circle" value="2"/>
+        </attr>
+        <attr name="round_radius" format="dimension"/>
+
+        <attr name="stroke_width" format="dimension"/>
+        <attr name="stroke_color" format="color|reference"/>
+    </declare-styleable>
+
+</resources>

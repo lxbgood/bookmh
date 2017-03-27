@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sixty_percent_transparent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/photograph"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="拍照"
+            android:textColor="@color/font_A_assistant_color_black"
+            android:textSize="@dimen/font_title_size" />
+
+        <View style="@style/small_divider_line" />
+
+        <TextView
+            android:id="@+id/sel_pic"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="从手机相册选择"
+            android:textColor="@color/font_A_assistant_color_black"
+            android:textSize="@dimen/font_title_size" />
+
+        <View style="@style/small_divider_line" />
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/font_B_highlight_color_red"
+            android:textSize="@dimen/font_title_size" />
+    </LinearLayout>
+
+</RelativeLayout>

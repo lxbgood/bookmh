@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 四类字体大小 -->
+    <dimen name="text_smallly_size">10sp</dimen>
+    <dimen name="text_micro_size">12sp</dimen>
+    <dimen name="text_small_size">14sp</dimen>
+    <dimen name="text_medium_size">16sp</dimen>
+    <dimen name="text_large_size">18sp</dimen>
+    <dimen name="text_large_more_size">22sp</dimen>
+    <dimen name="padding_top">10dp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="padding_right">10dp</dimen>
+    <dimen name="padding_buttom">10dp</dimen>
+    <dimen name="padding_small_top">5dp</dimen>
+    <dimen name="padding_small_left">5dp</dimen>
+    <dimen name="padding_small_right">5dp</dimen>
+    <dimen name="padding_small_buttom">5dp</dimen>
+    
+    <dimen name="title_button_width">56dip</dimen>
+    <dimen name="title_button_left_width">30dip</dimen>
+    <dimen name="home_card_left">8.0dp</dimen>
+    <dimen name="main_navigation_bottom_icon_width">32dp</dimen>
+    <dimen name="main_navigation_bottom_icon_height">41dp</dimen>
+    <dimen name="main_navigation_bottom_area_height">53dp</dimen>
+    <dimen name="list_item_padding">5dp</dimen>
+    <dimen name="list_item_padding_middle">15dip</dimen>
+    <dimen name="large_more_text_size">22sp</dimen>
+    <!-- TitleBar高度 -->
+    <dimen name="list_item_margin_top_small">5dip</dimen>
+    <dimen name="list_item_margin_top">10dip</dimen>
+    <dimen name="list_item_margin_top_larger">20dip</dimen>
+    <dimen name="list_item_icon_width">60dp</dimen>
+    <dimen name="list_item_icon_height">60dp</dimen>
+    <dimen name="edit_text_height">45dp</dimen>
+    <dimen name="pd_suit_image_height">70dp</dimen>
+
+    <!-- 火车头一号规范dimens定义 720*1280 4.65屏幕 315.8ppi dp*ppi/160 = px  新的用的放到注释下面吧 上面的以后删掉 -->
+
+    <dimen name="search_list_height">50dp</dimen>
+
+    <!-- 分割线 -->
+    <dimen name="dividing_line_size">1dp</dimen>
+    <!-- titlebar大小 -->
+    <dimen name="font_titlebar_size">18sp</dimen>
+    <!-- 标题大小 -->
+    <dimen name="font_title_size">16sp</dimen>
+    <!-- 正文常用字体大小 -->
+    <dimen name="font_main_text_size">14sp</dimen>
+    <!-- 辅助字体大小 -->
+    <dimen name="font_assistant_text_size">12sp</dimen>
+
+    <!-- 特别字号效果图上标出 -->
+    <!-- 首页分栏目的title字体 -->
+    <dimen name="font_home_sub_title_size">15sp</dimen>
+
+    <!-- 列表页商品adapter高度 -->
+    <dimen name="list_goods_item_height">268dp</dimen>
+    <!-- 列表页图片尺寸大小 -->
+    <dimen name="list_goods_item_icon_width">75dp</dimen>
+    <dimen name="list_goods_item_icon_height">75dp</dimen>
+    <dimen name="list_goods_item_icon_width_cat">80dp</dimen>
+    <dimen name="list_goods_item_icon_height_cat">80dp</dimen>
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="footer_height">90dp</dimen>
+    <dimen name="footer_padding">10dp</dimen>
+    <dimen name="order_item_hight">62.5dp</dimen>
+    <dimen name="order_item_divider_hight">12.5dp</dimen>
+    
+    <!-- 商品详情页 -->
+    <dimen name="title_bar_height">64dp</dimen>
+    <!-- 商品详情页选择等栏目高度 -->
+    <dimen name="product_item_height">60dp</dimen>
+    <!-- 商品详情页选择等栏目左右间距 -->
+    <dimen name="out_margin">15dp</dimen>
+    <dimen name="pro_out_margin">10dp</dimen>
+    <dimen name="internal_margin">20dp</dimen>
+    
+    <dimen name="template_hight_4">181dp</dimen>
+    <dimen name="template_img_hight_5">136dp</dimen>
+    <dimen name="shenghuo_active_hight">150dp</dimen>
+</resources>

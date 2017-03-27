@@ -1,0 +1,10 @@
+gen/
+/bin/
+/.settings/
+/.classpath
+/.project
+/ic_launcher-web.png
+/project.properties
+/lint.xml
+/gen/ 
+*.iml

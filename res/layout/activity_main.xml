@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/all_bg" >
+	<RelativeLayout android:id="@+id/title_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+         <ImageView
+                android:id="@+id/img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_my_set_headshot"
+                android:layout_gravity="center_horizontal" />
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_toRightOf="@+id/img">
+
+        <TextView
+            android:id="@+id/book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" 
+            android:text="嗨阅读" 
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/font_A_assistant_color_black"
+            android:textSize="@dimen/font_title_size" />
+
+        <TextView
+            android:id="@+id/bookdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:gravity="center" 
+            android:text="嗨"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/font_A_assistant_color_black"
+            android:textSize="@dimen/font_title_size" />
+
+        <TextView
+            android:id="@+id/dm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" 
+            android:text="嗨漫画"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/font_A_assistant_color_black"
+            android:textSize="@dimen/font_title_size" />
+    </LinearLayout>
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/fragment"
+        android:layout_below="@+id/title_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:background="@color/white"
+        android:visibility="visible" >
+    </RelativeLayout>
+
+</RelativeLayout>
