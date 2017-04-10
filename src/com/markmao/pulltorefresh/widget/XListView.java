@@ -1,7 +1,5 @@
 package com.markmao.pulltorefresh.widget;
 
-import com.example.com.book.dfapp.R;
-
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.Build;
@@ -19,6 +17,8 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.Scroller;
+
+import com.example.com.book.dfapp.R;
  
 
 /**

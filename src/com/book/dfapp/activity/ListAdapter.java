@@ -2,9 +2,6 @@ package com.book.dfapp.activity;
 
 import java.util.ArrayList;
 
-import com.book.dfapp.util.ImageUtil;
-import com.example.com.book.dfapp.R;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,17 +10,21 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.book.dfapp.util.BookMode;
+import com.book.dfapp.util.ImageUtil;
+import com.example.com.book.dfapp.R;
+
 public class ListAdapter extends BaseAdapter{
 	private LayoutInflater inflater;
-	public ArrayList<String>  arrayList =new ArrayList<String>();
+	public ArrayList<BookMode>  arrayList =new ArrayList<BookMode>();
 	private Context mcontext;
-	public ListAdapter(ArrayList<String>  namelist, Context context) {
+	public ListAdapter(ArrayList<BookMode>  namelist, Context context) {
 		// TODO Auto-generated constructor stub
 		arrayList=namelist;
 		mcontext=context;
 		inflater = LayoutInflater.from(context);
 	}
-	public void setData(ArrayList<String>  list)
+	public void setData(ArrayList<BookMode>  list)
 	{
 		arrayList=list; 
 	} 
@@ -48,7 +49,7 @@ public class ListAdapter extends BaseAdapter{
 	@Override
 	public View getView(final int position, View convertView, ViewGroup parent)  {
 		  ViewHolder viewHolder = null;
-		  String bean=arrayList.get(position);
+		  BookMode bean=arrayList.get(position);
 		  
 		if (convertView == null) {
 			viewHolder = new ViewHolder();
@@ -61,8 +62,10 @@ public class ListAdapter extends BaseAdapter{
 		} else {
 			viewHolder = (ViewHolder) convertView.getTag();
 		}
-		viewHolder.people.setText(bean);
-		ImageUtil.setViewImage(mcontext, viewHolder.img, "http://img12.360buyimg.com/n7/jfs/t2839/112/1823944877/318334/4adbd808/574bba26N4de24ae6.jpg!q80.webp", true);
+		viewHolder.name.setText(bean.getName());
+		viewHolder.people.setText(bean.getAuthor());
+		viewHolder.context.setText(bean.getJianjie());
+		ImageUtil.setViewImage(mcontext, viewHolder.img, bean.getCoverpic(), true);
 		return convertView;
 	}
 

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/all_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/titlelay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp" >
+
+        <TextView
+            android:id="@+id/tv_title_model_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="申明"
+            android:textColor="@color/font_text_color_txt" />
+
+        <ImageButton
+            android:id="@+id/ib_title_model_back1"
+            android:layout_width="8dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/search_drawer_back"
+            android:scaleType="center" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/all_bg"
+        android:layout_marginTop="10dp"
+        
+        android:orientation="vertical" >
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentLeft="true"
+                android:text="  在您使用本软件前，请您务必仔细阅读并彻底理解本声明。您可以选择不使用本软件，但如果您选择了使用，您的使用行为将被视为对本声明全部内容的认可。
+      本软件所有书籍已取得版权商授权，我方依法享有本产品中所有作品的使用权、发布权、网络传播权等权益，任何侵犯我方合法权益的行为将被依法追究。我方所取得合法授权的作品，对原始内容不做任何修改，主观上并无侵犯或违法的故意，因此对此合法性概不负责，亦不承担任何法律责任。任何单位或个人认为内容涉嫌侵犯其版权，以及内容存在涉及政治、低俗、暴力等合法性相关问题，请向我们提出书面权利通知，并提供身份证明、内容来源、权属证明及详细侵权情况证明和联系方式。我方在收到上述法律文件后，立即核实处理。
+。"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/font_text_color_txt"
+                android:textSize="@dimen/font_main_text_size" />
+          
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,7 +1,5 @@
 package com.markmao.pulltorefresh.widget;
 
-import com.example.com.book.dfapp.R;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -10,6 +8,8 @@ import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.example.com.book.dfapp.R;
  
 
 /**

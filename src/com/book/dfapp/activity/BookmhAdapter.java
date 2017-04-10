@@ -10,21 +10,22 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.book.dfapp.util.BookMode;
+import com.book.dfapp.util.BookMhMode;
+import com.book.dfapp.util.GradientDrawableUtils;
 import com.book.dfapp.util.ImageUtil;
 import com.example.com.book.dfapp.R;
 
-public class BookAdapter extends BaseAdapter{
+public class BookmhAdapter extends BaseAdapter{
 	private LayoutInflater inflater;
-	public ArrayList<BookMode>  arrayList =new ArrayList<BookMode>();
+	public ArrayList<BookMhMode>  arrayList =new ArrayList<BookMhMode>();
 	private Context mcontext;
-	public BookAdapter(ArrayList<BookMode>  namelist, Context context) {
+	public BookmhAdapter(ArrayList<BookMhMode>  namelist, Context context) {
 		// TODO Auto-generated constructor stub
 		arrayList=namelist;
 		mcontext=context;
 		inflater = LayoutInflater.from(context);
 	}
-	public void setData(ArrayList<BookMode>  list)
+	public void setData(ArrayList<BookMhMode>  list)
 	{
 		arrayList=list; 
 	} 
@@ -49,7 +50,7 @@ public class BookAdapter extends BaseAdapter{
 	@Override
 	public View getView(final int position, View convertView, ViewGroup parent)  {
 		  ViewHolder viewHolder = null;
-		  BookMode bean=arrayList.get(position);
+		  BookMhMode bean=arrayList.get(position);
 		  
 		if (convertView == null) {
 			viewHolder = new ViewHolder();
@@ -62,6 +63,7 @@ public class BookAdapter extends BaseAdapter{
 		}
 		MyActivity myActivity=(MyActivity)mcontext;
 		ImageUtil.setViewImage(myActivity, viewHolder.img , bean.getCoverpic(), true);
+//		GradientDrawableUtils.setGradientDrawable(viewHolder.img, color, backColor);
 		viewHolder.text.setText(bean.getName());
 		return convertView;
 	}

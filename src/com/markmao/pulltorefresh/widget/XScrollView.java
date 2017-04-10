@@ -1,7 +1,5 @@
 package com.markmao.pulltorefresh.widget;
 
-import com.example.com.book.dfapp.R;
-
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.Build;
@@ -18,7 +16,9 @@ import android.widget.AbsListView.OnScrollListener;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
-import android.widget.Scroller; 
+import android.widget.Scroller;
+
+import com.example.com.book.dfapp.R;
 
 /**
  * XScrollView, modified from {@link com.markmao.pulltorefresh.widget.XListView}

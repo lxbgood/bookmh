@@ -1,7 +1,5 @@
 package com.markmao.pulltorefresh.widget;
 
-import com.example.com.book.dfapp.R;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.Gravity;
@@ -14,6 +12,8 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.example.com.book.dfapp.R;
  
 
 /**

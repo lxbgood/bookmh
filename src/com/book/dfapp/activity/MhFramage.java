@@ -8,6 +8,8 @@ import org.json.JSONObject;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -16,18 +18,32 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 
-import com.book.dfapp.util.BookMode;
+import com.book.dfapp.util.BookMhMode;
 import com.book.dfapp.util.HttpListener;
 import com.book.dfapp.util.HttpUtil;
 import com.book.dfapp.util.IndexMode;
 import com.example.com.book.dfapp.R;
 import com.markmao.pulltorefresh.widget.XListView;
 
-public class bookFramage extends Fragment {
+public class MhFramage extends Fragment {
 	public View view;
 	public XListView listview;
-	ListAdapter listAdapter=null; 
-	public ArrayList<BookMode> arraylist=new ArrayList<BookMode>(); 
+	MhListAdapter  listAdapter=null; 
+	public ArrayList<BookMhMode> arraylist=new ArrayList<BookMhMode>(); 
+	private Handler Handler = new Handler() {
+
+		@Override
+		public void handleMessage(Message msg) {
+			super.handleMessage(msg);
+			switch (msg.what) {
+				case 1:
+					listAdapter.setData(arraylist);
+					listAdapter.notifyDataSetChanged(); 
+					break;
+			}
+		}
+
+	};
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -60,7 +76,7 @@ public class bookFramage extends Fragment {
 	public void sendhttp()
 	{
 		HashMap<String, String> map=new HashMap<String, String>();
-		map.put("fun", "booklist");
+		map.put("fun", "bookmhlist");
 		HttpUtil httpUtil=new HttpUtil((MyActivity)getActivity(),map , new HttpListener() {
 			
 			@Override
@@ -71,18 +87,18 @@ public class bookFramage extends Fragment {
 				try {
 					jsonObject = new JSONObject(json);
 					IndexMode indexmode=new IndexMode(jsonObject);
-					arraylist=indexmode.getBooklist();
-					 
-				    MyActivity myActivity=(MyActivity)getActivity();
-				    myActivity.post(new Runnable() {
-						
-						@Override
-						public void run() {
-							// TODO Auto-generated method stub
-							listAdapter.setData(arraylist);
-							listAdapter.notifyDataSetChanged(); 
-						}
-					});
+					arraylist=indexmode.getMhlist();
+					Handler.sendEmptyMessage(1);
+//				    MyActivity myActivity=(MyActivity)getActivity();
+//				    myActivity.post(new Runnable() {
+//						
+//						@Override
+//						public void run() {
+//							// TODO Auto-generated method stub
+//							listAdapter.setData(arraylist);
+//							listAdapter.notifyDataSetChanged(); 
+//						}
+//					});
 				} catch (JSONException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -100,7 +116,7 @@ public class bookFramage extends Fragment {
 	}
 	public void  findViews(View view)
 	{
-		listAdapter=new ListAdapter(arraylist, getActivity().getApplicationContext()); 
+		listAdapter=new MhListAdapter(arraylist, getActivity().getApplicationContext()); 
 		listview.setAdapter(listAdapter);
 		listview.setOnItemClickListener(new OnItemClickListener() {
 
@@ -109,9 +125,8 @@ public class bookFramage extends Fragment {
 					int position, long id) {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent(getActivity(),
-                        TxtActivity.class); 
+                        MhProductActivity.class); 
 				intent.putExtra("id", arraylist.get(position-1).getId());
-				intent.putExtra("name", arraylist.get(position-1).getName());
                 startActivity(intent);
 			}
 		});

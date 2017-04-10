@@ -1,6 +1,5 @@
 package com.book.dfapp.activity;
 
-import android.app.Activity;
 import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
 

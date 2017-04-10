@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="all_bg">#f3f3f4</color>
+    <color name="font_text_color">#666666</color>
+    <color name="font_text_color_title">#999999</color>
+    <color name="font_text_color_txt">#333333</color>
+    <color name="banblack">#50000000</color>
+    <color name="all_bg">#f2f2f2</color>
+    <color name="bluebg">#fc9a00</color>
     <color name="black">#000000</color>
      <color name="blackban">#202020</color>
     <color name="red">#F94d4d</color>
@@ -132,6 +137,5 @@
 
     <color name="select_sale_bg">#F7EAEA</color>
     <color name="transparent">#00000000</color>
-    
 
 </resources>

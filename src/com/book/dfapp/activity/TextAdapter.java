@@ -10,21 +10,21 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.book.dfapp.util.BookMode;
+import com.book.dfapp.util.BookMhMode;
 import com.book.dfapp.util.ImageUtil;
 import com.example.com.book.dfapp.R;
 
-public class BookAdapter extends BaseAdapter{
+public class TextAdapter extends BaseAdapter{
 	private LayoutInflater inflater;
-	public ArrayList<BookMode>  arrayList =new ArrayList<BookMode>();
+	public ArrayList<String>  arrayList =new ArrayList<String>();
 	private Context mcontext;
-	public BookAdapter(ArrayList<BookMode>  namelist, Context context) {
+	public TextAdapter(ArrayList<String>  namelist, Context context) {
 		// TODO Auto-generated constructor stub
 		arrayList=namelist;
 		mcontext=context;
 		inflater = LayoutInflater.from(context);
 	}
-	public void setData(ArrayList<BookMode>  list)
+	public void setData(ArrayList<String>  list)
 	{
 		arrayList=list; 
 	} 
@@ -49,20 +49,17 @@ public class BookAdapter extends BaseAdapter{
 	@Override
 	public View getView(final int position, View convertView, ViewGroup parent)  {
 		  ViewHolder viewHolder = null;
-		  BookMode bean=arrayList.get(position);
+		  String bean=arrayList.get(position);
 		  
 		if (convertView == null) {
 			viewHolder = new ViewHolder();
-			convertView = inflater.inflate(R.layout.bookitem, null);
-			viewHolder.text = (TextView) convertView.findViewById(R.id.text);
-			viewHolder.img = (ImageView) convertView.findViewById(R.id.img); 
+			convertView = inflater.inflate(R.layout.txtitem, null);
+			viewHolder.text = (TextView) convertView.findViewById(R.id.text); 
 			convertView.setTag(viewHolder);
 		} else {
 			viewHolder = (ViewHolder) convertView.getTag();
-		}
-		MyActivity myActivity=(MyActivity)mcontext;
-		ImageUtil.setViewImage(myActivity, viewHolder.img , bean.getCoverpic(), true);
-		viewHolder.text.setText(bean.getName());
+		} 
+		viewHolder.text.setText(bean);
 		return convertView;
 	}
 

@@ -48,9 +48,9 @@
     <!-- 标题大小 -->
     <dimen name="font_title_size">16sp</dimen>
     <!-- 正文常用字体大小 -->
-    <dimen name="font_main_text_size">14sp</dimen>
+    <dimen name="font_main_text_size">13sp</dimen>
     <!-- 辅助字体大小 -->
-    <dimen name="font_assistant_text_size">12sp</dimen>
+    <dimen name="font_assistant_text_size">11sp</dimen>
 
     <!-- 特别字号效果图上标出 -->
     <!-- 首页分栏目的title字体 -->

@@ -2,12 +2,7 @@ package com.book.dfapp.util;
 
 import java.util.HashMap;
 
-import com.book.dfapp.activity.MyActivity;
-import com.book.dfapp.activity.MyApplication;
-import com.example.com.book.dfapp.R;
-import com.zhy.http.okhttp.OkHttpUtils;
-import com.zhy.http.okhttp.callback.StringCallback;
-
+import okhttp3.Call;
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Log;
@@ -19,12 +14,17 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
-import okhttp3.Call;
+
+import com.book.dfapp.activity.MyActivity;
+import com.book.dfapp.activity.MyApplication;
+import com.example.com.book.dfapp.R;
+import com.zhy.http.okhttp.OkHttpUtils;
+import com.zhy.http.okhttp.callback.StringCallback;
 
 public class HttpUtil {
 	public HashMap<String, String> parmrMap;
 	public HttpListener httplistener;
-	public String urlhost="http://www.baidu.com";
+	public String urlhost="http://118.190.89.81/usersms/index.jsp";
 	private ViewGroup modal;
 
 	private ViewGroup rootFrameLayout;

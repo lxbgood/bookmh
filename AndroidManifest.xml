@@ -19,12 +19,12 @@
   
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/iocn"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Translucent.NoTitleBar"
          android:name="com.book.dfapp.activity.MyApplication" >
         <activity
-            android:name="com.book.dfapp.activity.MainActivity"
+            android:name="com.book.dfapp.activity.SplashActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,6 +32,38 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+         <activity
+            android:name="com.book.dfapp.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+         <activity
+            android:name="com.book.dfapp.activity.TxtActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+         <activity
+            android:name="com.book.dfapp.activity.MhProductActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+         <activity
+            android:name="com.book.dfapp.activity.MhActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+         <activity
+            android:name="com.book.dfapp.activity.AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+         <activity
+            android:name="com.book.dfapp.activity.HelpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+         <activity
+            android:name="com.book.dfapp.activity.Help1Activity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+         <activity
+            android:name="com.book.dfapp.activity.ShenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
     </application>
 
 </manifest>

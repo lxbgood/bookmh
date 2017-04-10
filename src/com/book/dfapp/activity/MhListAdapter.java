@@ -10,21 +10,22 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.book.dfapp.util.BookMhMode;
 import com.book.dfapp.util.BookMode;
 import com.book.dfapp.util.ImageUtil;
 import com.example.com.book.dfapp.R;
 
-public class BookAdapter extends BaseAdapter{
+public class MhListAdapter extends BaseAdapter{
 	private LayoutInflater inflater;
-	public ArrayList<BookMode>  arrayList =new ArrayList<BookMode>();
+	public ArrayList<BookMhMode>  arrayList =new ArrayList<BookMhMode>();
 	private Context mcontext;
-	public BookAdapter(ArrayList<BookMode>  namelist, Context context) {
+	public MhListAdapter(ArrayList<BookMhMode>  namelist, Context context) {
 		// TODO Auto-generated constructor stub
 		arrayList=namelist;
 		mcontext=context;
 		inflater = LayoutInflater.from(context);
 	}
-	public void setData(ArrayList<BookMode>  list)
+	public void setData(ArrayList<BookMhMode>  list)
 	{
 		arrayList=list; 
 	} 
@@ -49,25 +50,28 @@ public class BookAdapter extends BaseAdapter{
 	@Override
 	public View getView(final int position, View convertView, ViewGroup parent)  {
 		  ViewHolder viewHolder = null;
-		  BookMode bean=arrayList.get(position);
+		  BookMhMode bean=arrayList.get(position);
 		  
 		if (convertView == null) {
 			viewHolder = new ViewHolder();
-			convertView = inflater.inflate(R.layout.bookitem, null);
-			viewHolder.text = (TextView) convertView.findViewById(R.id.text);
+			convertView = inflater.inflate(R.layout.listitem, null);
+			viewHolder.people = (TextView) convertView.findViewById(R.id.people);
+			viewHolder.name = (TextView) convertView.findViewById(R.id.name);
+			viewHolder.context = (TextView) convertView.findViewById(R.id.context);
 			viewHolder.img = (ImageView) convertView.findViewById(R.id.img); 
 			convertView.setTag(viewHolder);
 		} else {
 			viewHolder = (ViewHolder) convertView.getTag();
 		}
-		MyActivity myActivity=(MyActivity)mcontext;
-		ImageUtil.setViewImage(myActivity, viewHolder.img , bean.getCoverpic(), true);
-		viewHolder.text.setText(bean.getName());
+		viewHolder.name.setText(bean.getName());
+		viewHolder.people.setText(bean.getAuthor());
+		viewHolder.context.setText(bean.getJianjie());
+		ImageUtil.setViewImage(mcontext, viewHolder.img, bean.getCoverpic(), true);
 		return convertView;
 	}
 
 	private class ViewHolder {
-		TextView text; 
+		TextView people,name,context; 
 		ImageView img;
 	}
 }
