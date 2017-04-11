@@ -56,7 +56,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" 
-                android:text="本软件版权归XXXX公司所有"
+                android:text="本软件版权归深圳市子橙在线科技有限公司所有"
                 android:layout_marginTop="10dp"
                 android:textColor="@color/font_text_color_txt"
                 android:textSize="@dimen/font_main_text_size" />
@@ -65,7 +65,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" 
-                android:text="开发者联系方式：88888@888.com"
+                android:text="开发者联系方式：postmaster@haihuyu.com"
                 android:layout_marginTop="10dp"
                 android:textColor="@color/font_text_color_txt"
                 android:textSize="@dimen/font_main_text_size" />

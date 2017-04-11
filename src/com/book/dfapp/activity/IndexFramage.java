@@ -93,7 +93,7 @@ public class IndexFramage extends Fragment {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent(getActivity(),
                         MhProductActivity.class); 
-				intent.putExtra("id", arraylist.get(position).getId());
+				intent.putExtra("id", manarraylist.get(position).getId());
                 startActivity(intent);
 			}
 		});

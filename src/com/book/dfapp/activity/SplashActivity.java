@@ -71,7 +71,7 @@ public class SplashActivity extends MyActivity{
                 checkAndStartGuildPage();
             }
         });
-        countDownTime =6;
+        countDownTime =5;
 
          
 
