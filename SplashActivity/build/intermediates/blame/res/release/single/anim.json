@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\poplefthidden_anim.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\poplefthidden_anim.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\slide_in_from_right.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\slide_in_from_right.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_bottom_in.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\view_in.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\view_in.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_up_in.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\push_up_in.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\fade_out.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_bottom_out.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\disappear.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\disappear.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_right_in.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\push_right_in.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\slide_right_out.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\slide_right_out.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_left_out.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\push_left_out.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\pophidden_anim.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\pophidden_anim.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\anim_smaller.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\anim_smaller.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\popshow_anim.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\popshow_anim.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_right_out.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\push_right_out.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\slide_in_from_left.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\slide_in_from_left.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\anim_bigger.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\anim_bigger.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\view_out.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\view_out.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\anim_shake.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\anim_shake.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\slide_left_in.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\slide_left_in.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\appear.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\appear.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\slide_top_in.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\slide_top_in.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\popleftshow_anim.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\popleftshow_anim.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_up_out.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\push_up_out.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\slide_out_to_right.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\slide_out_to_right.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\translate_down_anim.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\translate_down_anim.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\slide_left_out.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\slide_left_out.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\slide_buttom_out.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\slide_buttom_out.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\slide_out_to_left.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\slide_out_to_left.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\fade_in.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\slide_right_in.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\slide_right_in.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\translate_up_anim.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\translate_up_anim.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\cycle_7.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\cycle_7.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\gridview_anim.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\gridview_anim.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\get_jingdou.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\get_jingdou.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\anim\\push_bottom_in2.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\anim\\push_bottom_in2.xml"
+    }
+]

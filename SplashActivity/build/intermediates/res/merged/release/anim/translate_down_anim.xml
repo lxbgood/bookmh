@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <translate
+        android:duration="300"
+        android:fromXDelta="0%p"
+        android:fromYDelta="0%p"
+        android:toXDelta="0%p"
+        android:toYDelta="10%p" />
+    <!--
+     translate 位置转动移画果效
+        整型值:
+            fromXDelta 性属为动画肇端时 X坐标上的位置    
+            toXDelta   性属为动画结束时 X坐标上的位置
+            fromYDelta 性属为动画肇端时 Y坐标上的位置
+            toYDelta   性属为动画结束时 Y坐标上的位置
+            注意:
+                     没有指定fromXType toXType fromYType toYType 时候，
+                     默许是以自己为对相参照物             
+        长整型值：
+            duration  性属为动画持续间时
+            明说:   间时以毫秒为单位
+    -->
+
+</set>

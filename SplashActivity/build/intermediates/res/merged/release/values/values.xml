@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="address_green_bg">#d0f6bf</color>
+    <color name="address_green_txt">#09a138</color>
+    <color name="address_orerage_bg">#ffe9c6</color>
+    <color name="address_orerage_txt">#ff6f30</color>
+    <color name="address_red_bg">#ffe1de</color>
+    <color name="all_bg">#f2f2f2</color>
+    <color name="app_common_text_color">#666666</color>
+    <color name="app_dark_blue_text"> #105D9B</color>
+    <color name="app_red_text">#FF362B</color>
+    <color name="auth_btn_bg">#c5c5c5</color>
+    <color name="auth_msg_tips_bg">#fff7ea</color>
+    <color name="auth_pop_button">#007aff</color>
+    <color name="banblack">#50000000</color>
+    <color name="black">#000000</color>
+    <color name="blackban">#202020</color>
+    <color name="bluebg">#fc9a00</color>
+    <color name="btn_green_normal">#2fa6d8</color>
+    <color name="btn_green_pressed">#1988af</color>
+    <color name="btn_oranger_edge">#FF9800</color>
+    <color name="btn_oranger_normal">#FF9800</color>
+    <color name="btn_oranger_pressed">#c67514</color>
+    <color name="button_consignee_gray">#888888</color>
+    <color name="button_focused">#ee4533</color>
+    <color name="button_main_color_dark_red">#f24937</color>
+    <color name="button_main_color_yellow">#ffbb12</color>
+    <color name="button_more_hot_activity">#6dd9b7</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="del_search_history_textcolor">#606060</color>
+    <color name="devide_line">#d9d9d9</color>
+    <color name="diccount_view_bg_color">#ff9000</color>
+    <color name="dividing_line_color">#e3e3e3</color>
+    <color name="enable_color">#A6B1BB</color>
+    <color name="feebbackground">#c2c2c2</color>
+    <color name="fenge_color">#cfcfcf</color>
+    <color name="fifty_percent_transparent">#7D000000</color>
+    <color name="fifty_percent_transparent_order">#7D0A0204</color>
+    <color name="font_A_assistant_color_black">#222222</color>
+    <color name="font_B_highlight_color_red">#ff5745</color>
+    <color name="font_C_secondary_info_color_black_gray">#888888</color>
+    <color name="font_D_weak_info_color_gray">#aaaaaa</color>
+    <color name="font_E_colorized_bg_color_white">#ffffff</color>
+    <color name="font_F_color_gray">#b4b4b4</color>
+    <color name="font_text_color">#666666</color>
+    <color name="font_text_color_title">#999999</color>
+    <color name="font_text_color_txt">#333333</color>
+    <color name="gray">#e8e8e8</color>
+    <color name="grid_divider">#eeeeee</color>
+    <color name="grid_press">#e7eef4</color>
+    <color name="highlight_yellow">#FFFFCC</color>
+    <color name="hintColor">#9f9f9f</color>
+    <color name="jiance_red">#F94d4d</color>
+    <color name="lingjingdou">#bb8bfe</color>
+    <color name="login_line">#e3e3e3</color>
+    <color name="logistics_track_normal">#231815</color>
+    <color name="logistics_track_unused">#898989</color>
+    <color name="msg_tile_color">#333333</color>
+    <color name="new_countdown_layout_bg">#ff454545</color>
+    <color name="nine_grid_dividing_line_color">#eeeeee</color>
+    <color name="none">#00000000</color>
+    <color name="num_control_button_bg">#ececec</color>
+    <color name="num_control_gift_line">#f53119</color>
+    <color name="num_control_line">#c0c0c0</color>
+    <color name="oranger">#ff9800</color>
+    <color name="order_gray_textcolor">#888888</color>
+    <color name="order_line_color">#666666</color>
+    <color name="order_red">#ffebeb</color>
+    <color name="orderprduct_bg">#fff7ea</color>
+    <color name="othertitle_color">#595959</color>
+    <color name="pd_gray">#848689</color>
+    <color name="pro_jubao">#BFBFBF</color>
+    <color name="product_button_bg">#c5c5c5</color>
+    <color name="product_carimg_bg">#ffb43e</color>
+    <color name="product_line">#EEEEE0</color>
+    <color name="product_line_bg">#F8F8F8</color>
+    <color name="product_promise_bg">#a5a5a5</color>
+    <color name="product_red">#f24b48</color>
+    <color name="product_status_bg">#ededed</color>
+    <color name="product_windows_bg">#f1f1f2</color>
+    <color name="red">#F94d4d</color>
+    <color name="search_history_textcolor">#4e4e4e</color>
+    <color name="search_query_font_unselected">#686868</color>
+    <color name="select_sale_bg">#F7EAEA</color>
+    <color name="selectcolor">#e4e4e4</color>
+    <color name="sixty_percent_transparent">#99000000</color>
+    <color name="split_line_color">#EEF1F5</color>
+    <color name="teshu_color">#989898</color>
+    <color name="text_color1">#a1a1a1</color>
+    <color name="timelisttextcolor">#cdcdcd</color>
+    <color name="title_color">#474747</color>
+    <color name="title_line_color">#cecece</color>
+    <color name="title_textcolor">#222222</color>
+    <color name="toast_bg">#FFFCE2</color>
+    <color name="toast_bg_font">#FFC412</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_red">#00ff5745</color>
+    <color name="weaken_textcolor">#aaaaaa</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#FFA500</color>
+    <color name="zeng_textnocolor">#c1c1c1</color>
+    <declare-styleable name="CompoundButton"><attr name="android:button"/></declare-styleable>
+    <declare-styleable name="ExtendedListView"><attr format="reference" name="scrollBarPanel"/><attr format="reference" name="scrollBarPanelInAnimation"/><attr format="reference" name="scrollBarPanelOutAnimation"/></declare-styleable>
+    <declare-styleable name="MaskImage"><attr format="reference" name="image"/><attr format="reference" name="mask"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="indicatorColor"/><attr format="color" name="underlineColor"/><attr format="color" name="dividerColor"/><attr format="dimension" name="indicatorHeight"/><attr format="dimension" name="underlineHeight"/><attr format="dimension" name="dividerPadding"/><attr format="dimension" name="tabPaddingLeftRight"/><attr format="dimension" name="scrollOffset"/><attr format="reference" name="tabBackground"/><attr format="boolean" name="shouldExpand"/><attr format="boolean" name="textAllCaps"/></declare-styleable>
+    <declare-styleable name="PowerImageView"><attr format="boolean" name="auto_play"/></declare-styleable>
+    <declare-styleable name="RoundProgressBar"><attr format="color" name="roundColor"/><attr format="color" name="roundProgressColor"/><attr format="dimension" name="roundWidth"/><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="integer" name="max"/><attr format="boolean" name="textIsDisplayable"/><attr name="style">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="RoundedCornersImage"><attr format="dimension" name="cornerRadius"/></declare-styleable>
+    <declare-styleable name="ShapedImageView"><attr format="enum" name="shape_mode">
+            <enum name="round_rect" value="1"/>
+            <enum name="circle" value="2"/>
+        </attr><attr format="dimension" name="round_radius"/><attr format="dimension" name="stroke_width"/><attr format="color|reference" name="stroke_color"/></declare-styleable>
+    <declare-styleable name="SlidingLayer"><attr format="boolean" name="shadow_drawable"/><attr format="dimension" name="shadow_width"/><attr format="boolean" name="close_on_tapEnabled"/><attr format="enum" name="stickTo">
+            <enum name="auto" value="0"/>
+            <enum name="right" value="-1"/>
+            <enum name="left" value="-2"/>
+            <enum name="middle" value="-3"/>
+        </attr></declare-styleable>
+    <declare-styleable name="maxHeightView"><attr format="reference|float" name="maxHeightRatio"/><attr format="reference|dimension" name="maxHeightDimen"/></declare-styleable>
+    <declare-styleable name="pricetext"><attr format="boolean" name="isNum"/></declare-styleable>
+    <declare-styleable name="roundedimageview"><attr format="dimension" name="border_thickness"/><attr format="color" name="border_inside_color"/><attr format="color" name="border_outside_color"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dividing_line_size">1dp</dimen>
+    <dimen name="edit_text_height">45dp</dimen>
+    <dimen name="font_assistant_text_size">11sp</dimen>
+    <dimen name="font_home_sub_title_size">15sp</dimen>
+    <dimen name="font_main_text_size">13sp</dimen>
+    <dimen name="font_title_size">16sp</dimen>
+    <dimen name="font_titlebar_size">18sp</dimen>
+    <dimen name="footer_height">90dp</dimen>
+    <dimen name="footer_padding">10dp</dimen>
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="home_card_left">8.0dp</dimen>
+    <dimen name="internal_margin">20dp</dimen>
+    <dimen name="large_more_text_size">22sp</dimen>
+    <dimen name="list_goods_item_height">268dp</dimen>
+    <dimen name="list_goods_item_icon_height">75dp</dimen>
+    <dimen name="list_goods_item_icon_height_cat">80dp</dimen>
+    <dimen name="list_goods_item_icon_width">75dp</dimen>
+    <dimen name="list_goods_item_icon_width_cat">80dp</dimen>
+    <dimen name="list_item_icon_height">60dp</dimen>
+    <dimen name="list_item_icon_width">60dp</dimen>
+    <dimen name="list_item_margin_top">10dip</dimen>
+    <dimen name="list_item_margin_top_larger">20dip</dimen>
+    <dimen name="list_item_margin_top_small">5dip</dimen>
+    <dimen name="list_item_padding">5dp</dimen>
+    <dimen name="list_item_padding_middle">15dip</dimen>
+    <dimen name="main_navigation_bottom_area_height">53dp</dimen>
+    <dimen name="main_navigation_bottom_icon_height">41dp</dimen>
+    <dimen name="main_navigation_bottom_icon_width">32dp</dimen>
+    <dimen name="order_item_divider_hight">12.5dp</dimen>
+    <dimen name="order_item_hight">62.5dp</dimen>
+    <dimen name="out_margin">15dp</dimen>
+    <dimen name="padding_buttom">10dp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="padding_right">10dp</dimen>
+    <dimen name="padding_small_buttom">5dp</dimen>
+    <dimen name="padding_small_left">5dp</dimen>
+    <dimen name="padding_small_right">5dp</dimen>
+    <dimen name="padding_small_top">5dp</dimen>
+    <dimen name="padding_top">10dp</dimen>
+    <dimen name="pd_suit_image_height">70dp</dimen>
+    <dimen name="pro_out_margin">10dp</dimen>
+    <dimen name="product_item_height">60dp</dimen>
+    <dimen name="search_list_height">50dp</dimen>
+    <dimen name="shenghuo_active_hight">150dp</dimen>
+    <dimen name="template_hight_4">181dp</dimen>
+    <dimen name="template_img_hight_5">136dp</dimen>
+    <dimen name="text_large_more_size">22sp</dimen>
+    <dimen name="text_large_size">18sp</dimen>
+    <dimen name="text_medium_size">16sp</dimen>
+    <dimen name="text_micro_size">12sp</dimen>
+    <dimen name="text_small_size">14sp</dimen>
+    <dimen name="text_smallly_size">10sp</dimen>
+    <dimen name="title_bar_height">64dp</dimen>
+    <dimen name="title_button_left_width">30dip</dimen>
+    <dimen name="title_button_width">56dip</dimen>
+    <drawable name="pd_deliver_h">#dedede</drawable>
+    <item name="glide_tag_id" type="id"/>
+    <string name="app_name">嗨娱乐</string>
+    <string name="dapai_lasttime">剩余时间</string>
+    <string name="footer_hint_load_normal">松开加载更多</string>
+    <string name="footer_hint_load_ready">刷新中…</string>
+    <string name="header_hint_refresh_loading">刷新中…</string>
+    <string name="header_hint_refresh_normal">Pull to refresh</string>
+    <string name="header_hint_refresh_ready">松开立即刷新</string>
+    <string name="header_hint_refresh_time">最后更新时间：</string>
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+    <style name="AnimRightInAndOut" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_right_in</item>
+        <item name="android:windowExitAnimation">@anim/push_right_out</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="OrangerLine">
+        <item name="android:background">@color/oranger</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+    <style name="PersonalLine">
+        <item name="android:background">@color/black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+    <style name="TitleBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/title_bar_height</item>
+        <item name="android:background">@color/font_B_highlight_color_red</item>
+    </style>
+    <style name="TitleBar1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/title_bar_height</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="TitleBar_LeftButton1">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+    <style name="TitleBar_LeftButton2">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <style name="TitleBar_Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="address_detail">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/font_C_secondary_info_color_black_gray</item>
+        <item name="android:textSize">@dimen/font_main_text_size</item>
+    </style>
+    <style name="address_detail_edit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/font_A_assistant_color_black</item>
+        <item name="android:textSize">@dimen/font_main_text_size</item>
+    </style>
+    <style name="address_detail_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="divider_line">
+        <item name="android:background">@color/dividing_line_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dip</item>
+    </style>
+    <style name="divider_line_vetical">
+        <item name="android:background">@color/dividing_line_color</item>
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="fill_order_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:maxHeight">200dp</item>
+    </style>
+    <style mce_bogus="1" name="jingdou" parent="android:Animation">  
+    	<item name="android:windowEnterAnimation">@anim/get_jingdou</item>  
+	</style>
+    <style name="line1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/dividing_line_color</item>
+    </style>
+    <style name="list_devide_line">
+        <item name="android:background">@color/all_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
+    <style name="logistics_line_vertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/dividing_line_color</item>
+    </style>
+    <style name="main_title_font">
+        <item name="android:textSize">@dimen/font_titlebar_size</item>
+        <item name="android:textColor">@color/font_E_colorized_bg_color_white</item>
+    </style>
+    <style name="order_item">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/order_item_hight</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/list_item_margin_top_small</item>
+        <item name="android:paddingBottom">@dimen/list_item_margin_top_small</item>
+    </style>
+    <style name="progress_loading">
+        <item name="android:layout_width">34dp</item>
+        <item name="android:layout_height">34dp</item>
+    </style>
+    <style name="smallProgressBarStyle" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:minHeight">20dip</item>
+        <item name="android:minWidth">20dip</item>
+        <item name="android:maxHeight">20dip</item>
+        <item name="android:maxWidth">20dip</item>
+    </style>
+    <style name="small_divider_line">
+        <item name="android:background">@color/dividing_line_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+    <style name="small_divider_line_vetical">
+        <item name="android:background">@color/dividing_line_color</item>
+        <item name="android:layout_width">0.5dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="startup_match_base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="startup_wrap_base">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="tab_under_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dip</item>
+        <item name="android:background">@color/app_dark_blue_text</item>
+    </style>
+    <style name="text_buchong">
+        <item name="android:textColor">@color/othertitle_color</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="text_other_title">
+        <item name="android:textColor">@color/othertitle_color</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="text_teshu">
+        <item name="android:textColor">@color/teshu_color</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="text_title">
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="text_yiban">
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+</resources>

@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\imageitem.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\imageitem.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\about.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\vw_footer.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\vw_footer.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\vw_header_scollview.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\vw_header_scollview.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\indexframage.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\indexframage.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\listitem.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\listitem.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\txtframage.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\txtframage.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\bookframage.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\bookframage.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\bookitem.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\bookitem.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\shengming.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\shengming.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\win_sel_picture_layout.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\win_sel_picture_layout.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\mhactiviity.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\mhactiviity.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\my.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\my.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\activity_splash_layout.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\activity_splash_layout.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\loading_layout.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\loading_layout.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\vw_xscrollview_layout.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\vw_xscrollview_layout.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\vw_scroll_view_content.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\vw_scroll_view_content.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\txtitem.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\txtitem.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\gameactiviity.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\gameactiviity.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\help.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\help.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\vw_header.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\vw_header.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\layout\\vw_list_item.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\layout\\vw_list_item.xml"
+    }
+]

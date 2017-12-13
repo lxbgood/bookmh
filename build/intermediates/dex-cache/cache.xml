@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="G:\StudioProjects\bookmh\SplashActivity\libs\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="G:\StudioProjects\bookmh\SplashActivity\build\intermediates\pre-dexed\debug\glide-3.7.0_088b0e945b799c8886351e41fc35afcdf512a496.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\StudioProjects\bookmh\SplashActivity\libs\okhttp.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="272b3e3d2abffa4e8ee1cd785a70b416cda8cd90">
+        <dex dex="G:\StudioProjects\bookmh\SplashActivity\build\intermediates\pre-dexed\debug\okhttp_c980ffccb3c0ff855b702bd289fe497fb589e43a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\StudioProjects\bookmh\SplashActivity\libs\okhttputil.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="53cb6adf632701389bf6464f0cac8b0ecd09d1c1">
+        <dex dex="G:\StudioProjects\bookmh\SplashActivity\build\intermediates\pre-dexed\debug\okhttputil_1d16f38a568b2b21819afab0eae681d946c3da4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\StudioProjects\bookmh\SplashActivity\libs\okio.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="710a8c5044226a4cedb9f1d3378a181780c80132">
+        <dex dex="G:\StudioProjects\bookmh\SplashActivity\build\intermediates\pre-dexed\debug\okio_5f362a728ed74c1f7e38daf002f34dd8dc55e9b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="G:\StudioProjects\bookmh\SplashActivity\build\intermediates\pre-dexed\debug\support-v4-18.0.0_a37153480c3901b2ee4884c471cf9ee1d2e62017.jar" />
+    </item>
+
+</items>

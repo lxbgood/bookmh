@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="okhttputil">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SplashActivity/libs/okhttputil.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

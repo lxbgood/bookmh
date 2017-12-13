@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\drawable\\progress_hud_bg.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\drawable\\progress_hud_bg.xml"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\drawable\\ic_loading_pic_refresh.png",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\drawable\\ic_loading_pic_refresh.png"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\drawable\\refresh_progress_style.xml",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\drawable\\refresh_progress_style.xml"
+    }
+]

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/all_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/titlelay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp" >
+
+        <TextView
+            android:id="@+id/tv_title_model_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="帮助"
+            android:textColor="@color/font_text_color_txt" />
+
+        <ImageButton
+            android:id="@+id/ib_title_model_back1"
+            android:layout_width="8dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/search_drawer_back"
+            android:scaleType="center" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/all_bg"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="一、闪退的原因"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/font_text_color_txt"
+                android:textSize="@dimen/font_main_text_size" />
+          <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="闪退一般是后台更新参数所致，重启即可。"
+                android:layout_marginLeft="50dp" 
+                android:textColor="@color/font_text_color"
+                android:textSize="@dimen/font_main_text_size" />
+          <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="二、软件占用手机内存大吗？"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/font_text_color_txt"
+                android:textSize="@dimen/font_main_text_size" />
+          <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="浏览或看完内容，软件会自动清楚部分缓存，或在设置中自行清理全部缓存。"
+                android:layout_marginLeft="50dp" 
+                android:textColor="@color/font_text_color"
+                android:textSize="@dimen/font_main_text_size" />
+          <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="三、网络失败的原因？"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/font_text_color_txt"
+                android:textSize="@dimen/font_main_text_size" />
+          <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="手机未连接网络或手机网络不可用，请确保网络畅通。"
+                android:layout_marginLeft="50dp" 
+                android:textColor="@color/font_text_color"
+                android:textSize="@dimen/font_main_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

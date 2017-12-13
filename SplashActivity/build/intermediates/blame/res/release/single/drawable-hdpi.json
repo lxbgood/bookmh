@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\title_icon.png",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\drawable-hdpi\\title_icon.png"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\arrow_up.png",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\drawable-hdpi\\arrow_up.png"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\search_drawer_back.png",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\drawable-hdpi\\search_drawer_back.png"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\load_circle.png",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\drawable-hdpi\\load_circle.png"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\ic_launcher.png",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\StudioProjects\\bookmh\\SplashActivity\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\arrow_down.png",
+        "source": "G:\\StudioProjects\\bookmh\\SplashActivity\\src\\main\\res\\drawable-hdpi\\arrow_down.png"
+    }
+]
